@@ -15,11 +15,13 @@ function HomePage() {
       {/* Educational Resources Section */}
       <div className="mt-8">
         <h2 className="text-xl font-bold mb-4">Educational Resources</h2>
+        <h4 className=" font-bold">Learn more about diabetic retinopathy</h4>
         <p className="mb-4">
           Diabetic retinopathy is a diabetes complication that affects eyes. It's caused by damage to the blood vessels of the light-sensitive tissue at the back of the eye (retina). Click 
           <a href="https://www.mayoclinic.org/diseases-conditions/diabetic-retinopathy/symptoms-causes/syc-20371611" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer"> here </a> 
           to learn more about its causes and symptoms.
         </p>
+        <h4 className=" font-bold">Preventive measures</h4>
         <p>
           There are several preventive measures you can take to reduce the risk of diabetic retinopathy. Regular eye exams, managing your blood sugar levels, and controlling blood pressure are some of the key steps. Visit 
           <a href="https://www.nhs.uk/conditions/diabetic-retinopathy/prevention/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer"> here </a> 

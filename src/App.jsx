@@ -6,6 +6,14 @@ import NotFound from './pages/NotFound';
 import Prediction from './pages/Prediction';
 import Navbar from './components/Navbar';
 
+function Copyright() {
+  return (
+    <div className="copyright text-center  text-gray-500 text-sm mt-4">
+      © {new Date().getFullYear()} Abhi-1441. All rights reserved.
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +24,7 @@ function App() {
           <Route path="/predict" element={<Prediction />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Copyright />
       </Router>
     </div>
   );
