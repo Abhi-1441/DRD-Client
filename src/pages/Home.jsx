@@ -10,7 +10,7 @@ function HomePage() {
 
   return (
     <div className="max-w-lg mx-auto mt-10 p-6 border rounded-lg shadow-lg">
-      <h1 className="text-2xl font-bold mb-4">Welcome to DRD Tester</h1>
+      <h1 className="text-2xl font-bold mb-4">Welcome to VisionVault</h1>
       
       {/* Educational Resources Section */}
       <div className="mt-8">
