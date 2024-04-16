@@ -19,7 +19,7 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center space-x-2"> 
           <img onClick={handleHomeClick} src={logo} alt="Logo" className="h-8 w-8 hover:cursor-pointer" /> 
-          <h1 onClick={handleHomeClick} className="text-xl font-bold text-white hover:cursor-pointer">DRD Tester</h1>
+          <h1 onClick={handleHomeClick} className="text-xl font-bold text-white hover:cursor-pointer">VisionVault</h1>
         </div>
         <div className="space-x-4">
           <button
